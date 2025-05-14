@@ -1,0 +1,30 @@
+{
+  "name": "solana-nft-dapp",
+  "version": "1.0.0",
+  "description": "Project based Learning to make a Mint, Update, Transfer NFTs w/ Next.js &amp; Metaplex DApp in Solana Chain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngJianming/Solana-NFT-DApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngJianming/Solana-NFT-DApp/issues"
+  },
+  "homepage": "https://github.com/AngJianming/Solana-NFT-DApp#readme",
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@metaplex-foundation/umi": "^1.2.0",
+    "@metaplex-foundation/umi-http-fetch": "^1.2.0",
+    "@metaplex-foundation/umi-rpc-web3js": "^1.2.0",
+    "@metaplex-foundation/umi-serializer-beet": "^1.2.0",
+    "@metaplex-foundation/umi-signer-derived": "^1.2.0",
+    "@metaplex-foundation/umi-signer-wallet-adapters": "^1.2.0",
+    "@solana-developers/helpers": "^2.3.0"
+  }
+}
